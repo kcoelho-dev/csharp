@@ -1,0 +1,15 @@
+/home/kcoelho/Documents/coding/csharp/projects/begin/2-UsingVariables/obj/Debug/net6.0/2-UsingVariables.csproj.AssemblyReference.cache
+/home/kcoelho/Documents/coding/csharp/projects/begin/2-UsingVariables/obj/Debug/net6.0/2-UsingVariables.GeneratedMSBuildEditorConfig.editorconfig
+/home/kcoelho/Documents/coding/csharp/projects/begin/2-UsingVariables/obj/Debug/net6.0/2-UsingVariables.AssemblyInfoInputs.cache
+/home/kcoelho/Documents/coding/csharp/projects/begin/2-UsingVariables/obj/Debug/net6.0/2-UsingVariables.AssemblyInfo.cs
+/home/kcoelho/Documents/coding/csharp/projects/begin/2-UsingVariables/obj/Debug/net6.0/2-UsingVariables.csproj.CoreCompileInputs.cache
+/home/kcoelho/Documents/coding/csharp/projects/begin/2-UsingVariables/bin/Debug/net6.0/2-UsingVariables
+/home/kcoelho/Documents/coding/csharp/projects/begin/2-UsingVariables/bin/Debug/net6.0/2-UsingVariables.deps.json
+/home/kcoelho/Documents/coding/csharp/projects/begin/2-UsingVariables/bin/Debug/net6.0/2-UsingVariables.runtimeconfig.json
+/home/kcoelho/Documents/coding/csharp/projects/begin/2-UsingVariables/bin/Debug/net6.0/2-UsingVariables.dll
+/home/kcoelho/Documents/coding/csharp/projects/begin/2-UsingVariables/bin/Debug/net6.0/2-UsingVariables.pdb
+/home/kcoelho/Documents/coding/csharp/projects/begin/2-UsingVariables/obj/Debug/net6.0/2-UsingVariables.dll
+/home/kcoelho/Documents/coding/csharp/projects/begin/2-UsingVariables/obj/Debug/net6.0/refint/2-UsingVariables.dll
+/home/kcoelho/Documents/coding/csharp/projects/begin/2-UsingVariables/obj/Debug/net6.0/2-UsingVariables.pdb
+/home/kcoelho/Documents/coding/csharp/projects/begin/2-UsingVariables/obj/Debug/net6.0/2-UsingVariables.genruntimeconfig.cache
+/home/kcoelho/Documents/coding/csharp/projects/begin/2-UsingVariables/obj/Debug/net6.0/ref/2-UsingVariables.dll

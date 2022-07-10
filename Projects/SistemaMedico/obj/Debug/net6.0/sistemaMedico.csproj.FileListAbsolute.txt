@@ -1,0 +1,15 @@
+/home/kcoelho/Documents/coding/csharp/projects/intermediate/sistemaMedico/obj/Debug/net6.0/sistemaMedico.csproj.AssemblyReference.cache
+/home/kcoelho/Documents/coding/csharp/projects/intermediate/sistemaMedico/obj/Debug/net6.0/sistemaMedico.GeneratedMSBuildEditorConfig.editorconfig
+/home/kcoelho/Documents/coding/csharp/projects/intermediate/sistemaMedico/obj/Debug/net6.0/sistemaMedico.AssemblyInfoInputs.cache
+/home/kcoelho/Documents/coding/csharp/projects/intermediate/sistemaMedico/obj/Debug/net6.0/sistemaMedico.AssemblyInfo.cs
+/home/kcoelho/Documents/coding/csharp/projects/intermediate/sistemaMedico/obj/Debug/net6.0/sistemaMedico.csproj.CoreCompileInputs.cache
+/home/kcoelho/Documents/coding/csharp/projects/intermediate/sistemaMedico/bin/Debug/net6.0/sistemaMedico
+/home/kcoelho/Documents/coding/csharp/projects/intermediate/sistemaMedico/bin/Debug/net6.0/sistemaMedico.deps.json
+/home/kcoelho/Documents/coding/csharp/projects/intermediate/sistemaMedico/bin/Debug/net6.0/sistemaMedico.runtimeconfig.json
+/home/kcoelho/Documents/coding/csharp/projects/intermediate/sistemaMedico/bin/Debug/net6.0/sistemaMedico.dll
+/home/kcoelho/Documents/coding/csharp/projects/intermediate/sistemaMedico/bin/Debug/net6.0/sistemaMedico.pdb
+/home/kcoelho/Documents/coding/csharp/projects/intermediate/sistemaMedico/obj/Debug/net6.0/sistemaMedico.dll
+/home/kcoelho/Documents/coding/csharp/projects/intermediate/sistemaMedico/obj/Debug/net6.0/refint/sistemaMedico.dll
+/home/kcoelho/Documents/coding/csharp/projects/intermediate/sistemaMedico/obj/Debug/net6.0/sistemaMedico.pdb
+/home/kcoelho/Documents/coding/csharp/projects/intermediate/sistemaMedico/obj/Debug/net6.0/sistemaMedico.genruntimeconfig.cache
+/home/kcoelho/Documents/coding/csharp/projects/intermediate/sistemaMedico/obj/Debug/net6.0/ref/sistemaMedico.dll

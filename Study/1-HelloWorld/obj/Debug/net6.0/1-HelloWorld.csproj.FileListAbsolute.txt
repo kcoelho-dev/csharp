@@ -1,0 +1,15 @@
+/home/kcoelho/Documents/coding/csharp/projects/begin/1-HelloWorld/bin/Debug/net6.0/1-HelloWorld
+/home/kcoelho/Documents/coding/csharp/projects/begin/1-HelloWorld/bin/Debug/net6.0/1-HelloWorld.deps.json
+/home/kcoelho/Documents/coding/csharp/projects/begin/1-HelloWorld/bin/Debug/net6.0/1-HelloWorld.runtimeconfig.json
+/home/kcoelho/Documents/coding/csharp/projects/begin/1-HelloWorld/bin/Debug/net6.0/1-HelloWorld.dll
+/home/kcoelho/Documents/coding/csharp/projects/begin/1-HelloWorld/bin/Debug/net6.0/1-HelloWorld.pdb
+/home/kcoelho/Documents/coding/csharp/projects/begin/1-HelloWorld/obj/Debug/net6.0/1-HelloWorld.csproj.AssemblyReference.cache
+/home/kcoelho/Documents/coding/csharp/projects/begin/1-HelloWorld/obj/Debug/net6.0/1-HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/home/kcoelho/Documents/coding/csharp/projects/begin/1-HelloWorld/obj/Debug/net6.0/1-HelloWorld.AssemblyInfoInputs.cache
+/home/kcoelho/Documents/coding/csharp/projects/begin/1-HelloWorld/obj/Debug/net6.0/1-HelloWorld.AssemblyInfo.cs
+/home/kcoelho/Documents/coding/csharp/projects/begin/1-HelloWorld/obj/Debug/net6.0/1-HelloWorld.csproj.CoreCompileInputs.cache
+/home/kcoelho/Documents/coding/csharp/projects/begin/1-HelloWorld/obj/Debug/net6.0/1-HelloWorld.dll
+/home/kcoelho/Documents/coding/csharp/projects/begin/1-HelloWorld/obj/Debug/net6.0/refint/1-HelloWorld.dll
+/home/kcoelho/Documents/coding/csharp/projects/begin/1-HelloWorld/obj/Debug/net6.0/1-HelloWorld.pdb
+/home/kcoelho/Documents/coding/csharp/projects/begin/1-HelloWorld/obj/Debug/net6.0/1-HelloWorld.genruntimeconfig.cache
+/home/kcoelho/Documents/coding/csharp/projects/begin/1-HelloWorld/obj/Debug/net6.0/ref/1-HelloWorld.dll
