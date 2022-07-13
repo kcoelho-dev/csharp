@@ -22,15 +22,16 @@ namespace ByteBank.Employees
                     Base - References a specific function, method or variable of the base class (Employee).
          *
         **/
-        public override double GetBonus()
-        {
-            return Wage + base.GetBonus(); // Returns Wage + Default 10%
-        }
-
         public override void WageRaise()
         {
-            Wage *= 1.5;
+            Wage *= 1.15;
         }
+
+        public override double GetBonus()
+        {
+            return Wage * 0.50; // Returns Wage + Default 10%
+        }
+
 
     }
 }

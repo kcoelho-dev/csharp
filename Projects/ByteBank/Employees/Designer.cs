@@ -2,19 +2,20 @@ namespace ByteBank.Employees
 {
     public class Designer : Employee
     {
-        public Designer (string cpf) : base (cpf)
+        public Designer(string cpf) : base(cpf)
         {
             Console.WriteLine("Creating New Designer");
         }
 
-        public override double GetBonus()
-        {
-            return Wage + base.GetBonus();
-        }
-
         public override void WageRaise()
         {
-           Wage *= 0.17;
+            Wage *= 1.11;
         }
+        
+        public override double GetBonus()
+        {
+            return Wage * 0.17;
+        }
+
     }
 }

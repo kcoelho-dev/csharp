@@ -6,33 +6,36 @@ namespace ByteBank
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Testando");
             CalculateBonus();
-            Console.ReadLine();
-        }   // End Main
+
+        }
 
         public static void CalculateBonus()
         {
             BonusManager bm = new BonusManager();
-            
-            Designer samara = new Designer("111.222.333-44");
+
+            Employee samara = new Designer("012.123.234-45");
             samara.Name = "Samara Aparecida";
-            bm.Registrar(samara);
+            bm.Register(samara);
 
-            Director ludimila = new Director("554.765.123-82");
+            Employee ludimila = new Director("987.876.765-65");
             ludimila.Name = "Ludimila Loiola";
-            bm.Registrar(ludimila);
+            bm.Register(ludimila);
 
-            Assistant amanda = new Assistant("332.224.563-22");
+            Employee amanda = new Assistant("012.234.456-68");
             amanda.Name = "Amanda Torres";
-            bm.Registrar(amanda);
+            bm.Register(amanda);
 
-            AccountManager kelvin = new AccountManager("241.214.142-12");
+            Employee kelvin = new AccountManager("111.222.333-44");
             kelvin.Name = "Kelvin Coelho";
-            bm.Registrar(kelvin);
+            bm.Register(kelvin);
+
+            Employee kcoelho = new Developer("055.550.505-50");
+            kcoelho.Name = "Kelvin Coelho";
+            bm.Register(kcoelho);
+
+            Console.WriteLine("Total de Funcionários Cadastrados: " + Employee.TotalEmployees);
         }
-
-
-
-    }   // End Program
-
-}   // End namespace ByteBank
+    }
+}

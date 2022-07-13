@@ -6,7 +6,7 @@ namespace ByteBank
     public class BonusManager
     {
         private double totalBonus;
-        public void Registrar(Employee employee)
+        public void Register(Employee employee)
         {
             totalBonus += employee.GetBonus();
         }

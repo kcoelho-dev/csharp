@@ -7,14 +7,15 @@ namespace ByteBank.Employees
             Console.WriteLine("Creating New Account Manager");
         }
 
-        public override double GetBonus()
-        {
-            return Wage + base.GetBonus();
-        }
-
         public override void WageRaise()
         {
-           Wage *= 0.25;
+           Wage *= 1.05;
         }
+
+        public override double GetBonus()
+        {
+            return Wage * 0.25;
+        }
+
     }
 }
