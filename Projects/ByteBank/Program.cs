@@ -1,52 +1,38 @@
-﻿using ByteBank;
-using ByteBank.Employees;
+﻿using ByteBank.Employees;
 
-
-
-
-BonusManager manager = new BonusManager();
-
-Employee carlos = new Employee();
+namespace ByteBank
 {
-    carlos.Name = "Carlos Alberto";
-    carlos.Wage = 1000;
-    carlos.CPF = "077.147.741-71";
-    manager.Registrar(carlos);
-    Console.WriteLine("Bonificação de " + carlos.Name + ": R$" + carlos.GetBonus());
-}
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            CalculateBonus();
+            Console.ReadLine();
+        }   // End Main
 
+        public static void CalculateBonus()
+        {
+            BonusManager bm = new BonusManager();
+            
+            Designer samara = new Designer("111.222.333-44");
+            samara.Name = "Samara Aparecida";
+            bm.Registrar(samara);
 
-Director kelvin = new Director();
-{
-    kelvin.Name  = "Kelvin Coelho";
-    kelvin.Wage = 5000;
-    kelvin.CPF = "011.101.010-11";
-    manager.Registrar(kelvin);
-    Console.WriteLine("Bonificação de " + kelvin.Name + ": R$" + kelvin.GetBonus());
-}
+            Director ludimila = new Director("554.765.123-82");
+            ludimila.Name = "Ludimila Loiola";
+            bm.Registrar(ludimila);
 
+            Assistant amanda = new Assistant("332.224.563-22");
+            amanda.Name = "Amanda Torres";
+            bm.Registrar(amanda);
 
-/**
- * @about   Inserting new Employee as a Diretor
- * @brief   Since the Director class inherits the characteristics of the  class Employee,
-            this implies that each object of the Director class shares the same basic characteristics of the Employee class.
- * 
-**/
-Employee samara = new Director();
-{
-    samara.Name  = "Samara Aparecida";
-    samara.Wage = 3000;
-    samara.CPF = "011.101.010-11";
-    manager.Registrar(samara);
-    Console.WriteLine("Bonificação de " + samara.Name + ": R$" + samara.GetBonus());
-}
-
-
-Console.WriteLine(Employee.TotalEmployees);
+            AccountManager kelvin = new AccountManager("241.214.142-12");
+            kelvin.Name = "Kelvin Coelho";
+            bm.Registrar(kelvin);
+        }
 
 
 
+    }   // End Program
 
-// manager.Registrar(kelvin);
-
-Console.WriteLine("O total de bonificações registrado no sistema é: R$" + manager.GetTotalBonus());
+}   // End namespace ByteBank

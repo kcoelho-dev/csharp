@@ -10,9 +10,9 @@ namespace ByteBank.Employees
         // public Director(string nome, string cPF, double Wage) { Nome = nome; CPF = cPF; Wage = Wage; }
 
 
-        public Director ()
+        public Director (string cpf) : base(cpf)
         {
-            Console.WriteLine("Criando Diretor '" + Name + "'");
+            Console.WriteLine("Creating New Director");
         }
         /**
          *@about    Using 'override' tag and 'base'
@@ -26,5 +26,11 @@ namespace ByteBank.Employees
         {
             return Wage + base.GetBonus(); // Returns Wage + Default 10%
         }
+
+        public override void WageRaise()
+        {
+            Wage *= 1.5;
+        }
+
     }
 }
