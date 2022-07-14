@@ -1,4 +1,5 @@
 ﻿using ByteBank.Employees;
+using ByteBank.Systems;
 
 namespace ByteBank
 {
@@ -8,6 +9,8 @@ namespace ByteBank
         {
             Console.WriteLine("Testando");
             CalculateBonus();
+
+            UsingSystem();
 
         }
 
@@ -36,6 +39,21 @@ namespace ByteBank
             bm.Register(kcoelho);
 
             Console.WriteLine("Total de Funcionários Cadastrados: " + Employee.TotalEmployees);
+        }
+
+        public static void UsingSystem()
+        {
+            Console.ReadKey();
+            Console.Clear();
+            InternalSystem internalSystem = new InternalSystem();
+            AccountManager ludimila = new AccountManager("987.876.765-65");
+            ludimila.Name = "Ludimila Loiola";
+
+            ludimila.Password = "123";
+            internalSystem.Login(ludimila, "123");
+            internalSystem.Login(ludimila, "123");
+
+            // Console.WriteLine(internalSystem.Login(ludimila, "123"));
         }
     }
 }

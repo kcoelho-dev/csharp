@@ -5,15 +5,15 @@ namespace ByteBank.Employees
      * @param 
      * 
     **/
-    public class Director : Employee
+    public class Director : Authenticable
     {
-        // public Director(string nome, string cPF, double Wage) { Nome = nome; CPF = cPF; Wage = Wage; }
-
-
-        public Director (string cpf) : base(cpf)
+ 
+        public Director(string cpf) : base(cpf)
         {
             Console.WriteLine("Creating New Director");
         }
+
+  
         /**
          *@about    Using 'override' tag and 'base'
          *@brief    Override - We need to use 'override' explicitly to determine that this function will replace the one contained in
