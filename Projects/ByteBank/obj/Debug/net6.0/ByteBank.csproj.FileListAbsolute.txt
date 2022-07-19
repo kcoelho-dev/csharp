@@ -1,0 +1,15 @@
+/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/bin/Debug/net6.0/ByteBank
+/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/bin/Debug/net6.0/ByteBank.deps.json
+/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/bin/Debug/net6.0/ByteBank.runtimeconfig.json
+/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/bin/Debug/net6.0/ByteBank.dll
+/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/bin/Debug/net6.0/ByteBank.pdb
+/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/obj/Debug/net6.0/ByteBank.csproj.AssemblyReference.cache
+/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/obj/Debug/net6.0/ByteBank.GeneratedMSBuildEditorConfig.editorconfig
+/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/obj/Debug/net6.0/ByteBank.AssemblyInfoInputs.cache
+/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/obj/Debug/net6.0/ByteBank.AssemblyInfo.cs
+/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/obj/Debug/net6.0/ByteBank.csproj.CoreCompileInputs.cache
+/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/obj/Debug/net6.0/ByteBank.dll
+/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/obj/Debug/net6.0/refint/ByteBank.dll
+/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/obj/Debug/net6.0/ByteBank.pdb
+/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/obj/Debug/net6.0/ByteBank.genruntimeconfig.cache
+/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/obj/Debug/net6.0/ref/ByteBank.dll
