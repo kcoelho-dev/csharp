@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank.Modelo/ByteBank.Modelo.csproj": {}
+    "/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/ByteBank.Modelo/ByteBank.Modelo.csproj": {}
   },
   "projects": {
-    "/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank.Modelo/ByteBank.Modelo.csproj": {
+    "/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/ByteBank.Modelo/ByteBank.Modelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank.Modelo/ByteBank.Modelo.csproj",
+        "projectUniqueName": "/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/ByteBank.Modelo/ByteBank.Modelo.csproj",
         "projectName": "ByteBank.Modelo",
-        "projectPath": "/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank.Modelo/ByteBank.Modelo.csproj",
+        "projectPath": "/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/ByteBank.Modelo/ByteBank.Modelo.csproj",
         "packagesPath": "/home/kcoelho/.nuget/packages/",
-        "outputPath": "/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank.Modelo/obj/",
+        "outputPath": "/home/kcoelho/Documents/study/coding/csharp/Projects/ByteBank/ByteBank.Modelo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kcoelho/.nuget/NuGet/NuGet.Config"
