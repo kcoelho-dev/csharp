@@ -1,112 +1,98 @@
+
 using ByteBank.Clientes;
 
 namespace ByteBank
 {
     public class ContaCorrente
     {
-        public Cliente Titular { get; set; } = new Cliente("NULL", "NULL", "NULL");
-        // public Cliente Titular { get; set; } = new Cliente();
+        private static int TaxaOperacao;
 
+        public static int TotalDeContasCriadas { get; private set; }
 
-        private int _NumeroAgencia;
-        public int NumeroAgencia
-        {
-            get { return _NumeroAgencia; }
-            set
-            {
-                if (value <= 0) return;
-                _NumeroAgencia = value;
-            }
-        }
-        
+        public Cliente Titular { get; set; }
 
-        public int NumeroConta { get; private set; }
+        public int ContadorSaquesNaoPermitidos { get; private set; }
+        public int ContadorTransferenciasNaoPermitidas { get; private set; }
 
-        private double _Saldo;
+        public int Numero { get; }
+        public int Agencia { get; }
+
+        private double _saldo = 100;
         public double Saldo
         {
-            get { return _Saldo; }
+            get
+            {
+                return _saldo;
+            }
             set
             {
                 if (value < 0)
                 {
                     return;
                 }
-                _Saldo = value;
+
+                _saldo = value;
             }
         }
-        public static int QuantidadeContasCriadas { get; private set; }
-        
 
-
-        public ContaCorrente() { QuantidadeContasCriadas++; }
-
-        public ContaCorrente(Cliente titular, int numeroagencia, int numeroconta, double saldo)
+        public ContaCorrente(int agencia, int numero)
         {
-            Titular = titular;
-            NumeroAgencia = numeroagencia;
-            NumeroConta = numeroconta;
-            Saldo = saldo;
-            QuantidadeContasCriadas++;
-            Console.WriteLine("Nova Conta Criada!\n");
-            Console.WriteLine("Titular da Conta: " + Titular.Nome);
-            Console.WriteLine("Número da Agência: " + NumeroAgencia);
-            Console.WriteLine("Número da Conta: " + NumeroConta);
-            Console.WriteLine("Saldo: " + Saldo);
-            Console.WriteLine("************************");
-            Console.WriteLine("Quantidade de Clientes ativos: " + QuantidadeContasCriadas);
-        }
-
-        public bool Sacar(double valor)
-        {
-            if (Saldo < valor || valor < 0)
+            if (numero <= 0)
             {
-                return false;
-            }
-            else
-            {
-                Saldo -= valor;
-                return true;
+                throw new ArgumentException("O argumento agencia deve ser maior que 0.", nameof(agencia));
             }
 
+            if(numero <= 0)
+            {
+                throw new ArgumentException("O argumento numero deve ser maior que 0.", nameof(numero));
+            }
+
+            Agencia = agencia;
+            Numero = numero;
+
+            TotalDeContasCriadas++;
+            TaxaOperacao = 30 / TotalDeContasCriadas;
         }
 
-        public bool Depositar(double valor)
+        public void Sacar(double valor)
         {
             if (valor < 0)
             {
-                return false;
+                throw new ArgumentException("Valor inválido para o saque.", nameof(valor));
             }
-            else
+
+            if (_saldo < valor)
             {
-                Saldo += valor;
-                return true;
+                ContadorSaquesNaoPermitidos++;
+                throw new SaldoInsuficienteException(Saldo, valor);
             }
+
+            _saldo -= valor;
         }
-        public bool Transferir(double valor, ContaCorrente contaDestino)
+
+        public void Depositar(double valor)
         {
-            if (Saldo < valor || valor < 0)
-            {
-                return false;
-            }
-            else
-            {
-                Saldo -= valor;
-                contaDestino.Saldo += valor;
-                return true;
-            }
+            _saldo += valor;
         }
 
-        public void InformacoesConta()
+        public void Transferir(double valor, ContaCorrente contaDestino)
         {
-            Console.WriteLine("Titular da conta: " + Titular.Nome);
-            Console.WriteLine("CPF do titular: " + Titular.CPF);
-            Console.WriteLine("Profissão: " + Titular.Profissao);
-            Console.WriteLine("Número da Conta: " + NumeroConta);
-            Console.WriteLine("Número da Agência: " + NumeroAgencia);
-            Console.WriteLine("Saldo atual: R$" + Saldo);
+            if (valor < 0)
+            {
+                throw new ArgumentException("Valor inválido para a transferência.", nameof(valor));
+            }
+            
+            try
+            {
+                Sacar(valor);
+            }
+            catch(SaldoInsuficienteException ex)
+            {
+                ContadorTransferenciasNaoPermitidas++;
+                throw new OperacaoFinanceiraException("Operação não realizada.", ex);
+            }
+
+            contaDestino.Depositar(valor);
         }
-
-
-    }   //End of class ContaCorrente
-}   //End of namespace ByteBank
+    }
+}
