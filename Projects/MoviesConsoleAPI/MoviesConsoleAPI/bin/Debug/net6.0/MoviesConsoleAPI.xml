@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MoviesConsoleAPI</name>
+    </assembly>
+    <members>
+        <member name="T:MoviesConsoleAPI.Controller.Reader">
+            <summary> Class <c>Reader</c> Reads the API URL and distributes the information
+            to the corresponding classes (MovieInfo and PageInfo </summary>
+            
+        </member>
+        <member name="F:MoviesConsoleAPI.Controller.Reader.BaseURL">
+            <summary> <c>BaseURL</c> Is the Base URL to reach the API resquests </summary>
+        </member>
+        <member name="F:MoviesConsoleAPI.Controller.Reader.pageInfo">
+            <summary> <c>pageInfo</c> An instance of PageInfo class to store some necessary informations to complete the request </summary>
+        </member>
+        <member name="M:MoviesConsoleAPI.Controller.Reader.RetrieveMovies">
+            <summary> <c>RetrieveMovies</c> The function that calls the URL, converts to json pattern and distributes to
+            the responsible classes
+            </summary>
+            <returns> <c>movieInfo</c> Returns the Task result of reading the API URL, creating a List of movies</returns>
+        </member>
+        <member name="T:MoviesConsoleAPI.Models.MovieInfo">
+            <summary> <c>MovieInfo</c> A Class that contains the most relevant information to solve the problem </summary>
+            obs: As we don't need the Title and imdbID to reach the solution, these attributes are not used.
+        </member>
+        <member name="P:MoviesConsoleAPI.Models.MovieInfo.Year">
+            <summary> <c>Year</c> The year that the movie was released </summary>
+        </member>
+        <member name="T:MoviesConsoleAPI.Models.PageInfo">
+            <summary> <c>PageInfo</c> A class to store basic informations of the reached page.
+            e.g.: current page, total of results, total of pages containing results, total of pages
+            and the data containing movies information
+            </summary>
+        </member>
+        <member name="M:MoviesConsoleAPI.Models.PageInfo.#ctor(System.Int32)">
+            <summary> <c>PageInfo(int page)</c> Constructor to initialize the an instance of the class at the first page</summary>
+        </member>
+        <member name="P:MoviesConsoleAPI.Models.PageInfo.Total">
+            <summary> <c>Total</c> Total of results based on the search title </summary>
+        </member>
+        <member name="P:MoviesConsoleAPI.Models.PageInfo.TotalPages">
+            <summary> <c>TotalPages</c> The total of pages than contains results </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:MoviesConsoleAPI.Models.PageInfo.Data" -->
+    </members>
+</doc>
