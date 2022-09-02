@@ -1,0 +1,15 @@
+D:\Users\kelvi\Documents\Study\programming\csharp\Projects\ByteBank\ByteBank\bin\Debug\net6.0\ByteBank.exe
+D:\Users\kelvi\Documents\Study\programming\csharp\Projects\ByteBank\ByteBank\bin\Debug\net6.0\ByteBank.deps.json
+D:\Users\kelvi\Documents\Study\programming\csharp\Projects\ByteBank\ByteBank\bin\Debug\net6.0\ByteBank.runtimeconfig.json
+D:\Users\kelvi\Documents\Study\programming\csharp\Projects\ByteBank\ByteBank\bin\Debug\net6.0\ByteBank.dll
+D:\Users\kelvi\Documents\Study\programming\csharp\Projects\ByteBank\ByteBank\bin\Debug\net6.0\ByteBank.pdb
+D:\Users\kelvi\Documents\Study\programming\csharp\Projects\ByteBank\ByteBank\obj\Debug\net6.0\ByteBank.csproj.AssemblyReference.cache
+D:\Users\kelvi\Documents\Study\programming\csharp\Projects\ByteBank\ByteBank\obj\Debug\net6.0\ByteBank.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\kelvi\Documents\Study\programming\csharp\Projects\ByteBank\ByteBank\obj\Debug\net6.0\ByteBank.AssemblyInfoInputs.cache
+D:\Users\kelvi\Documents\Study\programming\csharp\Projects\ByteBank\ByteBank\obj\Debug\net6.0\ByteBank.AssemblyInfo.cs
+D:\Users\kelvi\Documents\Study\programming\csharp\Projects\ByteBank\ByteBank\obj\Debug\net6.0\ByteBank.csproj.CoreCompileInputs.cache
+D:\Users\kelvi\Documents\Study\programming\csharp\Projects\ByteBank\ByteBank\obj\Debug\net6.0\ByteBank.dll
+D:\Users\kelvi\Documents\Study\programming\csharp\Projects\ByteBank\ByteBank\obj\Debug\net6.0\refint\ByteBank.dll
+D:\Users\kelvi\Documents\Study\programming\csharp\Projects\ByteBank\ByteBank\obj\Debug\net6.0\ByteBank.pdb
+D:\Users\kelvi\Documents\Study\programming\csharp\Projects\ByteBank\ByteBank\obj\Debug\net6.0\ByteBank.genruntimeconfig.cache
+D:\Users\kelvi\Documents\Study\programming\csharp\Projects\ByteBank\ByteBank\obj\Debug\net6.0\ref\ByteBank.dll
